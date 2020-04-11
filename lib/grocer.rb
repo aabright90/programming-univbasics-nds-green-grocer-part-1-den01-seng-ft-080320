@@ -26,6 +26,6 @@ def consolidate_cart(cart)
     item[:count] = item_arr.count(item[:item])
     arr << item
   end
-  binding.pry
+  # binding.pry
   arr
 end
