@@ -19,9 +19,9 @@ def consolidate_cart(cart)
   # change `cart` (i.e. mutate) it. It's easier to return a new thing.
   final_cart = {}
   cart.each do |item|
-
-    binding.pry
+    if find_item_by_name_in_collection(item, collection)
     
+    # binding.pry
   end
   final_cart
 end
