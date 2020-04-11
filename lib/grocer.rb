@@ -25,7 +25,7 @@ def consolidate_cart(cart)
   cart.each do |item|
     item[:count]
     arr << item
-  end 
+  end
   binding.pry
   arr
 end
