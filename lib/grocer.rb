@@ -22,7 +22,7 @@ def consolidate_cart(cart)
     if find_item_by_name_in_collection(item, collection)
 
     # binding.pry
-  end 
+    end 
   end
   final_cart
 end
