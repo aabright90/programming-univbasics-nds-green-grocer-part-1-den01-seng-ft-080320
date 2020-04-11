@@ -4,7 +4,10 @@ def find_item_by_name_in_collection(name, collection)
   #
   # Consult README for inputs and outputs
   collection.each do |item|
-    binding.pry
+    if name == item[:item]
+    # binding.pry
+    item[:item]
+    end 
   end
 end
 
