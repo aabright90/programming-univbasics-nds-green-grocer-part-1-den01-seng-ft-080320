@@ -19,7 +19,7 @@ def consolidate_cart(cart)
   # change `cart` (i.e. mutate) it. It's easier to return a new thing.
   arr = []
   cart_item = {}
-  cart.map do |item|
+  item_arr = cart.map do |item|
 
     binding.pry
   end
