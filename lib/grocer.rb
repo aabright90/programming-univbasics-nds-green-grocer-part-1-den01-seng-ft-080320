@@ -21,8 +21,8 @@ def consolidate_cart(cart)
   cart.each do |item|
     if find_item_by_name_in_collection(item, cart)
 
-    binding.pry
     end
+    binding.pry
   end
   cart_item
 end
