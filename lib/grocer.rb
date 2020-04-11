@@ -22,6 +22,10 @@ def consolidate_cart(cart)
   item_arr = cart.map do |item|
     item[:item]
   end
+  cart.each do |item|
+    item[:count]
+    arr << item
+  end 
   binding.pry
   arr
 end
