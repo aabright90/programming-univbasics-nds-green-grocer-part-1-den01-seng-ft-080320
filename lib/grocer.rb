@@ -20,8 +20,8 @@ def consolidate_cart(cart)
   arr = []
   cart_item = {}
   cart.map do |item|
-    
+
     binding.pry
   end
-  arr 
+  arr
 end
