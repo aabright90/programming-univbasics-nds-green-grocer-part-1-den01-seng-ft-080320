@@ -55,3 +55,7 @@ coupons.each do |coupon|
 end
 
 puts "Your total is #{checkout(cart: cart, coupons: coupons)}"
+
+def find_item_by_name_in_collection(item, grocery_shelf)
+end 
+
